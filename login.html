@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png">
+    <meta name="description" content="" />
+    <meta name="keywords" content="bootstrap, bootstrap4" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/log.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/tiny-slider.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="background-container"></div>
+    <div class="furni-container">
+        <a class="navbar-brand" href="index.html">
+            Furni
+            <span>.</span>
+        </a>
+    </div>
+    <div class="header-container">
+        <h1>Login</h1>
+    </div>
+    <div class="login-container">
+        <form class="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <div class="remember-me">
+                <input type="checkbox" id="remember-password" name="remember-password">
+                <label for="remember-password">Remember Password</label>
+            </div>
+            <button type="submit">Login</button>
+            <p class="forgot-password"><a href="your_forgot_password_url">Forgot Password?</a></p>
+            <div class="login-options">
+                <div class="or-container">
+                    <div class="line"></div>
+                    <p>OR</p>
+                    <div class="line"></div>
+                </div>
+                <button class="facebook-btn" onclick="window.location.href='your_fb_login_url'">Facebook</button>
+                <button class="google-btn" onclick="window.location.href='your_google_login_url'">Google</button>
+                <button class="x-btn" onclick="window.location.href='your_x_login_url'">X</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
