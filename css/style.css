@@ -702,19 +702,22 @@ textarea {
 .thankyou-icon {
   position: relative;
   color: #3b5d50; }
-  .thankyou-icon:before {
-    position: absolute;
-    content: "";
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: rgba(59, 93, 80, 0.2); }
-    .login-container {
-      background-color: #ffffff; /* 登錄區域的背景色，您可以根據需要調整 */
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 添加陰影效果 */
-  }
+.thankyou-icon:before {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(59, 93, 80, 0.2);
+ }
+.login-container {
+    width: 500px;
+    height: 500px;
+    background-color: #ffffff; /* 登錄區域的背景色，您可以根據需要調整 */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 添加陰影效果 */
+}
   
   .login-container h2 {
       text-align: center;
@@ -763,7 +766,7 @@ textarea {
 
 #rememberMe {
   margin-right: 5px; /* 可根据需要微调 */
-  width: 10px;
+  width: 20px;
   margin-bottom: 0px;
 }
 
@@ -875,4 +878,10 @@ textarea {
 
 .instagram-icon {
   background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c); /* Instagram 運動漸變色 */
+}
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
