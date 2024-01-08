@@ -713,10 +713,10 @@ textarea {
 .login-container {
     width: 500px;
     height: 500px;
-    background-color: #ffffff; /* 登錄區域的背景色，您可以根據需要調整 */
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 添加陰影效果 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
   
   .login-container h2 {
@@ -724,8 +724,8 @@ textarea {
   }
   
   .login-container form {
-      max-width: 300px; /* 調整表單的最大寬度 */
-      margin: 0 auto; /* 將表單置中 */
+      max-width: 300px;
+      margin: 0 auto; 
   }
   
   .login-container label {
@@ -744,7 +744,7 @@ textarea {
   .login-container button {
       width: 100%;
       padding: 10px;
-      background-color: #3b5d50; /* 按鈕的背景色，您可以根據需要調整 */
+      background-color: #3b5d50;
       color: #fff;
       border: none;
       border-radius: 4px;
@@ -754,9 +754,9 @@ textarea {
   .checkbox-container {
     display: grid;
     text-align: center;
-    grid-template-columns: auto auto; /* 两列布局，自动分配宽度 */
-    align-items: center; /* 垂直居中 */
-    column-gap: 0px; /* 列之间的间距 */
+    grid-template-columns: auto auto; 
+    align-items: center; 
+    column-gap: 0px; 
     margin-bottom: 10px;
   }
 .checkbox-container {
@@ -765,17 +765,17 @@ textarea {
 }
 
 #rememberMe {
-  margin-right: 5px; /* 可根据需要微调 */
+  margin-right: 5px;
   width: 20px;
   margin-bottom: 0px;
 }
 
 .checkbox-container label {
-  margin: 0; /* 移除文本的外边距 */
+  margin: 0; 
 }
 .or-divider {
   text-align: center;
-  margin: 20px 0; /* 调整间距 */
+  margin: 20px 0;
   position: relative;
 }
 
@@ -783,31 +783,31 @@ textarea {
 .or-divider::after {
   content: "";
   display: inline-block;
-  width: 40%; /* 虚线长度，根据需要调整 */
-  height: 1px; /* 虚线粗细，根据需要调整 */
-  background-color: #6a6a6a; /* 虚线颜色，根据需要调整 */
+  width: 40%;
+  height: 1px; 
+  background-color: #6a6a6a;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
 }
 
 .or-divider::before {
-  right: 10px; /* 调整虚线与文本的间距 */
+  right: 10px; 
 }
 
 .or-divider::after {
-  left: 10px; /* 调整虚线与文本的间距 */
+  left: 10px; 
 }
 
 .or-divider span {
-  background-color: #ffffff; /* 背景色，可根据需要调整 */
-  padding: 0 10px; /* 调整间距 */
-  color: #6a6a6a; /* 文本颜色，可根据需要调整 */
+  background-color: #ffffff; 
+  padding: 0 10px; 
+  color: #6a6a6a; 
 }
-/* 添加虚线样式 */
+
 .or-divider {
     text-align: center;
-    margin: 20px 0; /* 调整间距 */
+    margin: 20px 0; 
     position: relative;
 }
 
@@ -815,44 +815,43 @@ textarea {
 .or-divider::after {
     content: "";
     display: inline-block;
-    width: 40%; /* 虚线长度，根据需要调整 */
-    height: 1px; /* 虚线粗细，根据需要调整 */
-    background-color: #6a6a6a; /* 虚线颜色，根据需要调整 */
+    width: 40%; 
+    height: 1px; 
+    background-color: #6a6a6a;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
 
 .or-divider::before {
-    right: 10px; /* 调整虚线与文本的间距 */
+    right: 10px;
 }
 
 .or-divider::after {
-    left: 10px; /* 调整虚线与文本的间距 */
+    left: 10px; 
 }
 
 .or-divider span {
-    background-color: #ffffff; /* 背景色，可根据需要调整 */
-    padding: 0 10px; /* 调整间距 */
-    color: #6a6a6a; /* 文本颜色，可根据需要调整 */
+    background-color: #ffffff; 
+    padding: 0 10px;
+    color: #6a6a6a; 
 }
 
-/* 添加登录方式图标样式 */
+/* 登入 */
 .login-icons {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 20px; /* 调整图标与虚线的间距 */
+    margin-top: 20px;
 }
-
 .login-icon {
-    width: 40px; /* 图标宽度，可根据需要调整 */
-    height: 40px; /* 图标高度，可根据需要调整 */
-    border-radius: 50%; /* 将图标变成圆形 */
-    background-color: #ffffff; /* 图标背景色，可根据需要调整 */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 40px; 
+  height: 40px; 
+  border-radius: 50%;
+  background-color: #ffffff; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .social-icon {
   width: 40px;
@@ -861,23 +860,10 @@ textarea {
   overflow: hidden;
   margin: 0 5px;
 }
-
 .social-icon img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* 保持圖片比例，並填滿容器 */
-}
-/* 根據你的需要，可以為每個社交媒體平台添加相應的顏色和背景圖片 */
-.facebook-icon {
-  background-color: #3b5998; /* Facebook 的藍色 */
-}
-
-.google-icon {
-  background-color: #4285f4; /* Google 的藍色 */
-}
-
-.instagram-icon {
-  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c); /* Instagram 運動漸變色 */
+  object-fit: cover;
 }
 .login{
   display: flex;
