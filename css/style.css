@@ -822,22 +822,12 @@ textarea {
     top: 50%;
     transform: translateY(-50%);
 }
-
-.or-divider::before {
-    right: 10px;
-}
-
-.or-divider::after {
-    left: 10px; 
-}
-
 .or-divider span {
     background-color: #ffffff; 
     padding: 0 10px;
     color: #6a6a6a; 
 }
 
-/* 登入 */
 .login-icons {
     display: flex;
     justify-content: space-around;
@@ -870,4 +860,11 @@ textarea {
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+.search{
+  height: 40px;
+  padding: 8px;
+}
+.custom-navbar-cta{
+  align-items: center;
 }
