@@ -76,30 +76,37 @@
 				<div class="login-container">
 					<h2>Login</h2>
 					<form action="/login" method="post">
-						<label for="username">Username:</label>
-						<input type="text" id="username" name="username" required>
+						<label >Username:</label>
+						<input class="login-container-frame"type="text" id="username" name="username" required>
 								
 						<label for="password">Password:</label>
-						<input type="password" id="password" name="password" required>
-										
+						<input class="login-container-frame" type="password" id="password" name="password" required>	
 						<div class="checkbox-container">
-							<input type="checkbox" id="rememberMe" name="rememberMe">
-							<label for="remember">Remember password</label>
+							<label for="rememberMe">
+								<input class="login-container-hook" type="checkbox" id="rememberMe" name="rememberMe">
+								<span>Remember password</span>
+							</label>
 						</div>
+						<div class="Login-and-logout">
 							<button type="submit">Login</button>
+							<button type="submit">register</button>
+						</div>
+						<div class="forget-the-password">
+							<a href="#">forget the password？</a>
+						</div>	
 						<div class="or-divider">
 							<span>OR</span>
 						</div>
 						<div class="login-icons">
-						<!-- Facebook 登录图标 -->
-						<div class="social-icon facebook-icon">
-							<a href="#"><img src="/images/fb icon.png" alt="Facebook"></a>
+							<!-- Facebook 登录图标 -->
+							<div class="social-icon facebook-icon">
+								<a href="#"><img src="/images/fb icon.png" alt="Facebook"></a>
 							</div>
 							<!-- google 登录图标 -->  
 							<div class="social-icon google-icon">
 								<a href="#"><img src="/images/google icon.png" alt="Google"></a>
 							</div>
-											<!-- ig 登录图标 -->  
+							<!-- ig 登录图标 -->  
 							<div class="social-icon instagram-icon">
 								<a href="#"><img src="/images/ig icon.jfif" alt="Instagram"></a>
 							</div>

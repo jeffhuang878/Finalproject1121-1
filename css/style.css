@@ -718,6 +718,8 @@ textarea {
     height: 500px;
     background-color: #ffffff;
     padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
@@ -736,49 +738,39 @@ textarea {
       margin-bottom: 6px;
   }
   
-  .login-container input {
-      width: 100%;
-      padding: 8px;
-      border-radius: 30px;
-      margin-bottom: 10px;
-      box-sizing: border-box;
-  }
+.login-container-hook{
+  padding: 0px;
+  border-radius: 30px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.login-container-frame{
+  width: 100%;
+  padding: 8px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
   
-  .login-container button {
-      width: 100%;
-      padding: 10px;
-      background-color: #3b5d50;
-      color: #fff;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      border-radius: 30px;
-  }
-  .checkbox-container {
-    display: grid;
-    text-align: center;
-    grid-template-columns: auto auto; 
-    align-items: center; 
-    column-gap: 0px; 
-    margin-bottom: 10px;
-  }
-.checkbox-container {
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3b5d50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.Login-and-logout{
   display: flex;
-  align-items: center;
 }
-
-#rememberMe {
-  margin-right: 5px;
-  width: 20px;
-  margin-bottom: 0px;
-}
-
-.checkbox-container label {
-  margin: 0; 
+input[type=checkbox]+span {
+  user-select: none; /* 防止文字被滑鼠選取反白 */
 }
 .or-divider {
   text-align: center;
-  margin: 20px 0;
   position: relative;
 }
 
@@ -807,13 +799,6 @@ textarea {
   padding: 0 10px; 
   color: #6a6a6a; 
 }
-
-.or-divider {
-    text-align: center;
-    margin: 20px 0; 
-    position: relative;
-}
-
 .or-divider::before,
 .or-divider::after {
     content: "";
@@ -871,7 +856,19 @@ textarea {
 .custom-navbar-cta{
   align-items: center;
 }
-
+.forget-the-password{
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  color:#eff2f1;
+}
+.forget-the-password a {
+  color:#6a6a6a;
+  text-decoration:none;
+}
+.forget-the-password a:hover{
+  color: #302727;
+}
 .ourteam-container{
 width: 500px;
 height: 500px;
