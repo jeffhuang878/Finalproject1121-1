@@ -563,7 +563,8 @@ a {
     .footer-section .subscription-form .form-control {
       height: 50px;
       border-radius: 10px;
-      font-family: "Inter", sans-serif; }
+      font-family: "Inter", sans-serif; 
+    }
       .footer-section .subscription-form .form-control:active, .footer-section .subscription-form .form-control:focus {
         outline: none;
         -webkit-box-shadow: none;
@@ -621,12 +622,14 @@ a {
       font-size: 14px !important; }
 
 .untree_co-section {
-  padding: 7rem 0; }
+  padding: 7rem 0; 
+}
 
 .form-control {
   height: 50px;
   border-radius: 10px;
-  font-family: "Inter", sans-serif; }
+  font-family: "Inter", sans-serif;
+}
   .form-control:active, .form-control:focus {
     outline: none;
     -webkit-box-shadow: none;
@@ -710,9 +713,6 @@ textarea {
   border-radius: 50%;
   background: rgba(59, 93, 80, 0.2);
  }
- .login-white-frame{
-
- }
 .login-container {
     width: 500px;
     height: 500px;
@@ -752,7 +752,6 @@ textarea {
   margin-bottom: 10px;
   box-sizing: border-box;
 }
-  
 .login-container button {
   width: 100%;
   padding: 10px;
@@ -766,8 +765,16 @@ textarea {
 .Login-and-logout{
   display: flex;
 }
+.login-1:hover{
+  filter:grayscale(80%);-moz-opacity:0.8;opacity:0.8
+}
+.register-1:hover{
+  filter:grayscale(80%);-moz-opacity:0.8;opacity:0.8
+}
+
+
 input[type=checkbox]+span {
-  user-select: none; /* 防止文字被滑鼠選取反白 */
+  user-select: none; 
 }
 .or-divider {
   text-align: center;
@@ -822,6 +829,7 @@ input[type=checkbox]+span {
     align-items: center;
     margin-top: 20px;
 }
+
 .login-icon {
   width: 40px; 
   height: 40px; 
@@ -830,6 +838,10 @@ input[type=checkbox]+span {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.c-preview:hover img{
+  filter:grayscale(80%);-moz-opacity:0.8;opacity:0.8
 }
 .social-icon {
   width: 40px;
