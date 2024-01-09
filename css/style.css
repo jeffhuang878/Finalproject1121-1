@@ -710,6 +710,9 @@ textarea {
   border-radius: 50%;
   background: rgba(59, 93, 80, 0.2);
  }
+ .login-white-frame{
+
+ }
 .login-container {
     width: 500px;
     height: 500px;
@@ -859,7 +862,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 900px;
 }
 .search{
   height: 40px;
