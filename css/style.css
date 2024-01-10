@@ -743,6 +743,8 @@ textarea {
   border-radius: 30px;
   margin-bottom: 5px;
   box-sizing: border-box;
+}
+.checkbox-container:hover span,input{
   cursor: pointer;
 }
 .login-container-frame{
@@ -888,4 +890,8 @@ background-color: #ffffff;
 padding: 20px;
 border-radius: 8px;
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-visiblity{
+  display: none;
 }
